@@ -11,7 +11,7 @@ router.get("/health", (req, res) => {
 
 // strengthcheck
 router.get("/strength", (req, res) => {
-  res.status("200").send("STRENGTH: OK !!!");
+  res.status("200").send("STRENGTH2: OK !!!");
 });
 
 // retrieve all musicians from data store
